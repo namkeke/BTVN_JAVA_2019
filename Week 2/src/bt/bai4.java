@@ -13,7 +13,7 @@ public class bai4 {
         double m = sc.nextDouble();
         System.out.println("So thuc m= " + m);
         System.out.print("Nhap xau: ");
-        String s = sc.next();
+        String s = sc.nextLine();
         System.out.println("Xau: " + s);
     }
 }
