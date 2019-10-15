@@ -1,5 +1,5 @@
 package bt;
-
+//Nhập vào một chuỗi bất kì, hiển thị ra tổng các số trong chuỗi.
 import java.util.Scanner;
 
 public class bai2 {

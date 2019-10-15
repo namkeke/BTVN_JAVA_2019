@@ -1,7 +1,8 @@
 package bt;
 
 import java.util.Scanner;
-
+//Nhập n số nguyên
+//Tìm phần tử lớn thứ 3 (lớn gần nhất, chỉ nhỏ hơn 2 số) trong mảng.
 public class bai1 {
 
     public static void MAX3(float[] a, int n) {
