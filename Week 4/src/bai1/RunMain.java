@@ -5,7 +5,7 @@
 //Tạo ra 2 đối tượng Person SonNghien và Person TuBueDe.
 //Dùng Setter truyền vào giá trị thông tin cho 2 đối tượng (Không phải nhập).
 //Hiển thị thông tin 2 đối tượng.
-package aaa;
+package bai1;
 
 import java.util.Scanner;
 

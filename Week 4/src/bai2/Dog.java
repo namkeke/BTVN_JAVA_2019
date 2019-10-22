@@ -1,4 +1,4 @@
-package bai2_4;
+package bai2;
 
 public class Dog {
 

@@ -7,7 +7,7 @@
 // Tạo ra 1 đối tượng.
 // Cho đối tượng thực hiện 3 lần phương thức Bark(), sau mỗi lần sử dụng sẽ gọi ra phương thức ShowMP() để kiểm tra số MP còn lại
 // VD: a.Bark() -> a.ShowMP() -> a.Bark() -> a.ShowMP() -> ....
-package bai2_4;
+package bai2;
 
 import java.util.Scanner;
 

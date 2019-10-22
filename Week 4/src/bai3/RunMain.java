@@ -10,7 +10,7 @@
 //Tạo class RunMain có hàm main trong đó
 //Tạo ra 1 đối tượng JavaClass.
 //Nhập và xuất ra class đó.
-package bai3_4;
+package bai3;
 
 public class RunMain {
 
