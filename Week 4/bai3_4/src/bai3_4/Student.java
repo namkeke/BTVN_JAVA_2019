@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class Student {
 
-    Scanner sc = new Scanner(System.in);
-    private String name;
-    private String code;
+    private String name, code;
     private int age;
 
     public String getName() {
@@ -33,14 +31,24 @@ public class Student {
         this.age = age;
     }
 
-    public void InputInfo(String name, String code, int age) {
+    public Student(String name, String code, int age) {
         this.name = name;
         this.code = code;
         this.age = age;
     }
 
-    public void ShowInfo() {
-        System.out.println("Name: " + getName() + " ,code: " + getCode() + " ,age: " + getAge());
+    public void InputInfo() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Student's name: ");
+        setName(sc.nextLine());
+        System.out.println("Student's code: ");
+        setCode(sc.nextLine());
+        System.out.println("Student's age: ");
+        setAge(sc.nextInt());
+    }
+
+    public void ShowInfo() {//&&&&&&&&&&&&&&&&
+        System.out.println("Name: " + name + " ,code: " + code + " ,age: " + age);
     }
 
 }

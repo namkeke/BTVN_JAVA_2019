@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class JavaClass {
 
-    public static Scanner sc = new Scanner(System.in);
+    public Scanner sc = new Scanner(System.in);
 
-    private Student stdList[];
+    private Student arrList[];
     public String leader;
     private int ratingStart;
 
@@ -25,14 +25,15 @@ public class JavaClass {
     public void setRatingStart(int ratingStart) {
         this.ratingStart = ratingStart;
     }
-    
+    static Student[] sv = null;
+    static int n = 0;
+
     public void Inputstudent() {
         System.out.println("Nhập số học sinh n= ");
-        int n=sc.nextInt();
-        Student []sv;
+        n = sc.nextInt();
         sv = new Student[n];
         for (int i = 0; i < n; i++) {
-            sv[i].InputInfo(sc.nextLine(),sc.nextLine(),sc.nextInt());
+            sv[i].InputInfo();
         }
     }
 
