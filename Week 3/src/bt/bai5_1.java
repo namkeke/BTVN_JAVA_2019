@@ -49,6 +49,8 @@ public class bai5_1 {
             //chuyển last digit của t+ nhớ ra string 
             if (t > 9) {
                 n = 1;
+            } else {
+                n = 0;
             }
             s = ss + s;// cộng ra đằng trước của s cũ
         }
