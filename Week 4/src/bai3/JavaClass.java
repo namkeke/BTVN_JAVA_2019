@@ -13,8 +13,8 @@ public class JavaClass {
         System.out.println("Nhập số sv n= ");
         int n = sc.nextInt();
         stdList = new Student[n];
-        for(int i = 0; i < n; i++){
-            stdList[i] = new Student();//????????????????agdahba
+        for (int i = 0; i < n; i++) {
+            stdList[i] = new Student();
             stdList[i].InputInfo();
         }
     }
