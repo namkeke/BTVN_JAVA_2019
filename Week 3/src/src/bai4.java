@@ -2,7 +2,7 @@
 //Bạn được phép bỏ đi 1 kí tự bao nhiêu lần cũng được
 //cho đến khi nào tìm thấy hoặc không tìm thấy chữ hello.
 //Hãy in ra Yes nếu thấy và No nếu ngược lại.
-package bt;
+package src;
 
 import java.util.Scanner;
 

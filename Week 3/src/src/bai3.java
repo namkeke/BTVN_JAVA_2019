@@ -6,7 +6,7 @@
 //Đảo ngược mảng:
 //Hiển thị số a[1] và các số chia hết cho a[1]
 //Thoát.
-package bt;
+package src;
 
 import java.util.Scanner;
 

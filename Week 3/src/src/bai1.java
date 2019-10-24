@@ -1,4 +1,4 @@
-package bt;
+package src;
 
 import java.util.Scanner;
 //Nhập n số nguyên

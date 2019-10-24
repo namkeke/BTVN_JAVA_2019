@@ -1,7 +1,7 @@
 //Hiển thị kết quả a+b
 //a<=100000000000000000000000000000000000000000
 //b<=100000000000000000000000000000000000000000
-package bt;
+package src;
 
 import java.math.BigInteger;
 import java.util.Scanner;

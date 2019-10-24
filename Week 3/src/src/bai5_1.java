@@ -1,4 +1,4 @@
-package bt;
+package src;
 
 import java.util.Scanner;
 //Hiển thị kết quả a+b
@@ -43,9 +43,9 @@ public class bai5_1 {
         int t, n = 0;
         String s = "";
         for (int i = kkk; i >= 0; i--) {
-            t = Character.getNumericValue(a.charAt(i)) + Character.getNumericValue(b.charAt(i));
+            t = n + Character.getNumericValue(a.charAt(i)) + Character.getNumericValue(b.charAt(i));
             // lấy giá trị từ char + với nhau được t
-            String ss = Integer.toString(((t + n) % 10));
+            String ss = Integer.toString(t% 10);
             //chuyển last digit của t+ nhớ ra string 
             if (t > 9) {
                 n = 1;
