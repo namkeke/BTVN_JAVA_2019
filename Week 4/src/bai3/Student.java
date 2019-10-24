@@ -7,30 +7,6 @@ public class Student {
     private String name, code;
     private int age;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public Student(String name, String code, int age) {
         this.name = name;
         this.code = code;
@@ -40,11 +16,12 @@ public class Student {
     public void InputInfo() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Student's name: ");
-        setName(sc.nextLine());
+        name = sc.nextLine();
         System.out.println("Student's code: ");
-        setCode(sc.nextLine());
+        code = sc.nextLine();
         System.out.println("Student's age: ");
-        setAge(sc.nextInt());
+        age = sc.nextInt();
+        sc.nextLine();
     }
 
     public void ShowInfo() {//&&&&&&&&&&&&&&&&
