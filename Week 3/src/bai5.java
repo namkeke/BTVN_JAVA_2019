@@ -6,7 +6,7 @@ package src;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class bai5_2 {
+public class bai5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap so a: ");
