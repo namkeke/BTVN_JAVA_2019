@@ -28,7 +28,5 @@ public class Attack {
             p1.HP -= p2.dmg;
             p2.HP -= p1.dmg;
         } while (true);
-
     }
-
 }

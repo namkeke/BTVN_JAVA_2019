@@ -40,7 +40,5 @@ public class Attack {
                 }
             }
         } while (true);
-
     }
-
 }
