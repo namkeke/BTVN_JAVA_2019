@@ -12,37 +12,6 @@ public class Member {
     public String name;
     public int age;
     public String clas;
-//    public String getCode() {
-//        return code;
-//    }
-//
-//    public void setCode(String code) {
-//        this.code = code;
-//    }
-//
-//    public String getName() {
-//        return name;
-//    }
-//
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//
-//    public int getAge() {
-//        return age;
-//    }
-//
-//    public void setAge(int age) {
-//        this.age = age;
-//    }
-//
-//    public String getClas() {
-//        return clas;
-//    }
-//
-//    public void setClas(String clas) {
-//        this.clas = clas;
-//    }
 
     public void InputInfo() {
         Scanner sc = new Scanner(System.in);

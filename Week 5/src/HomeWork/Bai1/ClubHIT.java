@@ -23,7 +23,7 @@ public class ClubHIT {
     }
 
     public void Show() {
-        int ii=0;
+        int ii = 0;
         for (Member i : List) {
             ii++;
             System.out.print("Member[" + ii + "]: ");
