@@ -32,7 +32,7 @@ public class bai3 {
             switch (op) {
                 case 1:
                     for (int i = 0; i < n; i++) {
-                        System.out.print("a["+i+"] = ");
+                        System.out.print("a[" + i + "] = ");
                         a[i] = sc.nextInt();
                     }
                     break;

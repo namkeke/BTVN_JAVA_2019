@@ -1,4 +1,4 @@
-package bt;
+package src;
 
 public class bai1 {
 

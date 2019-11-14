@@ -1,4 +1,4 @@
-package bt;
+package src;
 
 import java.util.Scanner;
 
@@ -11,13 +11,14 @@ public class bai9 {
         double a = sc.nextDouble();
         System.out.print("Nhap so b= ");
         double b = sc.nextDouble();
-        if (a != 0)
+        if (a != 0) {
             System.out.println("PT co nghiem duy nhat\nx= " + (-b / a));
-        else {
-            if (b == 0)
+        } else {
+            if (b == 0) {
                 System.out.println("PT vo so nghiem");
-            else
+            } else {
                 System.out.println("PT vo nghiem");
+            }
         }
     }
 }

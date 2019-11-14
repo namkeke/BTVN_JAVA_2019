@@ -7,14 +7,15 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 public class bai5 {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap so a: ");
         String a = sc.nextLine();
         System.out.print("Nhap so b: ");
         String b = sc.nextLine();
-        BigInteger aa = new BigInteger(a,10);
-        BigInteger bb = new BigInteger(b,10);
+        BigInteger aa = new BigInteger(a, 10);
+        BigInteger bb = new BigInteger(b, 10);
         System.out.println(aa.add(bb));
     }
 }
