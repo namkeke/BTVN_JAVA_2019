@@ -42,7 +42,8 @@ public class ConHeo {
     public void setAge(int age) {
         this.age = age;
     }
-    public void Show(){
-        System.out.println("Name: "+getName()+" weigh: "+getWeigh()+" age: "+getAge());
+
+    public void Show() {
+        System.out.println("Name: " + getName() + " weigh: " + getWeigh() + " age: " + getAge());
     }
 }

@@ -18,7 +18,7 @@ public class Dog {
     }
 
     public void ShowMP() {
-        System.out.println("MP= "+MP);
+        System.out.println("MP= " + MP);
     }
 
     public void Bark() {

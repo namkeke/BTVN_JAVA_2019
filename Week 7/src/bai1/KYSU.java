@@ -12,7 +12,7 @@ public class KYSU extends Person {
     private int graduating;
 
     public KYSU(String name, String DateOfBirth, String PlaceOfBirth, String majors, int graduating) {
-        super(name,DateOfBirth,PlaceOfBirth);
+        super(name, DateOfBirth, PlaceOfBirth);
         this.majors = majors;
         this.graduating = graduating;
     }

@@ -3,11 +3,13 @@
 //phương thức: Hiển thị thông tin
 //=> Tạo và hiển thị 5 đối tượng tạo bằng 5 constructor khác nhau
 package bai1;
+
 /**
  *
  * @author Tao
  */
 public class RunMain {
+
     public static void main(String[] args) {
         ConHeo h = new ConHeo("a", 1, 1);
         ConHeo h1 = new ConHeo("a1", 11, 11);
