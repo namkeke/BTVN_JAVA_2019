@@ -31,7 +31,7 @@ public class Support {
         this.age = age;
         this.ListNameOfMbers = ListNameOfMbers;
     }
-    
+
     public void ShowSp() {
         System.out.println("Name: " + getName()
                 + " age: " + getAge());
