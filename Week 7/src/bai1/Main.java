@@ -1,9 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package bai1;
+
+import java.util.Scanner;
 
 /**
  *
@@ -11,11 +8,27 @@ package bai1;
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Số kỹ sư: ");
+        int n = sc.nextInt();
+        Kysu[] list = new Kysu[n];
+        for (int i = 0; i < n; i++) {
+            list[i] = new Kysu();
+            list[i].inputInfo();
+        }
+        int max = list[0].getGraduating();
+        for (Kysu i : list) {
+            i.showInfo();
+            if (i.getGraduating() > max) {
+                max = i.getGraduating();
+            }
+        }
+        System.out.println("Ky sư tốt nghiệp gần đây:");
+        for (Kysu i : list) {
+            if (i.getGraduating() == max) {
+                i.showInfo();
+            }
+        }
     }
-
 }

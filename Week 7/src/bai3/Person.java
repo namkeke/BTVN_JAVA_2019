@@ -1,4 +1,6 @@
-package bai1;
+package bai3;
+
+import java.util.Scanner;
 
 /**
  *
@@ -43,4 +45,18 @@ public class Person {
         this.PlaceOfBirth = PlaceOfBirth;
     }
 
+    public void inputInfo() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("\n======================\nInput name: ");
+        setName(sc.nextLine());
+        System.out.print("Input date of birth: ");
+        setDateOfBirth(sc.nextLine());
+        System.out.print("Input place of birth: ");
+        setPlaceOfBirth(sc.nextLine());
+    }
+
+    public void showInfo() {
+        String info = "\n=========================\nName: " + getName() + "\nDate of birth: " + getDateOfBirth() + "\nPlace of birth: " + getPlaceOfBirth();
+        System.out.println(info);
+    }
 }
