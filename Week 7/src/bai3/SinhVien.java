@@ -62,7 +62,7 @@ public class SinhVien extends Person {
     public void showInfo() {
         super.showInfo();
         System.out.println("ID: " + getID());
-        System.out.println("Major: " + getMajor());
+        System.out.println("Chuyên ngành: " + getMajor());
         System.out.println("Khóa học: " + getKhoaHoc());
     }
 

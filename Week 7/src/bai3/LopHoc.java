@@ -74,6 +74,7 @@ public class LopHoc {
         x = new SinhVien[getN()];
         System.out.println("Nhập thông tin của các sinh viên\n");
         for (int i = 0; i < getN(); i++) {
+            x[i]=new SinhVien();
             x[i].inputInfo();
         }
         System.out.println("Nhập mã lớp: ");
