@@ -7,13 +7,13 @@ package bai3;
 public class Leader {
 
     private String name;
-    private byte age;
+    private int age;
     private int leadingDays;
 
     public Leader() {
     }
 
-    public Leader(String name, byte age, int leadingDays) {
+    public Leader(String name, int age, int leadingDays) {
         this.name = name;
         this.age = age;
         this.leadingDays = leadingDays;
@@ -23,7 +23,7 @@ public class Leader {
         return name;
     }
 
-    public byte getAge() {
+    public int getAge() {
         return age;
     }
 

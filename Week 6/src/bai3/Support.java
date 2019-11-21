@@ -7,14 +7,14 @@ package bai3;
 public class Support {
 
     private String name;
-    private byte age;
+    private int age;
     private String[] ListNameOfMbers;
 
     public String getName() {
         return name;
     }
 
-    public byte getAge() {
+    public int getAge() {
         return age;
     }
 
@@ -26,7 +26,7 @@ public class Support {
         this.ListNameOfMbers = ListNameOfMbers;
     }
 
-    public Support(String name, byte age, String[] ListNameOfMbers) {
+    public Support(String name, int age, String[] ListNameOfMbers) {
         this.name = name;
         this.age = age;
         this.ListNameOfMbers = ListNameOfMbers;

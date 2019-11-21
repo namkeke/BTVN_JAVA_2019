@@ -22,7 +22,10 @@ public class RunMain {
         for (int i = 0; i < n; i++) {
             name[i] = sc.nextLine();
         }
-        Club a = new Club(new Leader("A", 1, 1), new Support("B", 2, name), new Member("C", 3, 3));
+        Leader A = new Leader("A", 1, 1);
+        Support B = new Support("B", 2, name);
+        Member C = new Member("C", 3, 3);
+        Club a = new Club(A, B, C);
         a.ShowClub();
     }
 }
