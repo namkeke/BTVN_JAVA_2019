@@ -8,7 +8,6 @@
 package HomeWork.Bai3;
 
 /**
- *
  * @author PNam
  */
 public class Attack {

@@ -1,7 +1,6 @@
 package bai3;
 
 /**
- *
  * @author PNam
  */
 public class Member {

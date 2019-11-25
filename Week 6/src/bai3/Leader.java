@@ -1,7 +1,6 @@
 package bai3;
 
 /**
- *
  * @author Tao
  */
 public class Leader {

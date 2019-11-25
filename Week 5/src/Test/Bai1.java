@@ -3,7 +3,6 @@ package Test;
 import java.util.Scanner;
 
 /**
- *
  * @author PNam
  */
 public class Bai1 {

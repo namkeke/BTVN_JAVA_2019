@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class JavaClass {
 
-    private Student[] stdList;
     public String leader;
+    private Student[] stdList;
     private int ratingStar;
 
     public void InputStudent() {

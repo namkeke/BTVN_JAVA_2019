@@ -1,9 +1,6 @@
 package Test.bai3;
 
-import Test.bai3.PHIEU;
-
 /**
- *
  * @author PNam
  */
 public class RunMain {

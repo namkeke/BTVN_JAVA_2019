@@ -4,7 +4,6 @@ package bai1;
 import java.util.Scanner;
 
 /**
- *
  * @author Tao
  */
 public class Main {

@@ -1,7 +1,6 @@
 package bai2;
 
 /**
- *
  * @author Tao
  */
 public class MayTinh {

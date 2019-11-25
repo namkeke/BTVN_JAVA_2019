@@ -1,10 +1,8 @@
 package Test.bai3;
 
-import Test.bai3.DateTime;
 import java.util.Scanner;
 
 /**
- *
  * @author PNam
  */
 public class PHIEU {

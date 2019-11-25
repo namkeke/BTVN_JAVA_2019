@@ -5,7 +5,6 @@
 package bai1;
 
 /**
- *
  * @author Tao
  */
 public class RunMain {

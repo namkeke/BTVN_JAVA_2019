@@ -3,7 +3,6 @@ package bai3;
 import java.util.Scanner;
 
 /**
- *
  * @author Tao
  */
 public class Person {

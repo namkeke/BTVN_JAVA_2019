@@ -2,7 +2,6 @@
 package bai3;
 
 /**
- *
  * @author Tao
  */
 public class Main {

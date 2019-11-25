@@ -8,7 +8,6 @@ package HomeWork.Bai2;
 import java.util.Scanner;
 
 /**
- *
  * @author PNam
  */
 public class RunMain {

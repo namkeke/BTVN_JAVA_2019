@@ -1,10 +1,10 @@
 package bai1;
 
 import bai3.Person;
+
 import java.util.Scanner;
 
 /**
- *
  * @author Tao
  */
 public class Kysu extends Person {

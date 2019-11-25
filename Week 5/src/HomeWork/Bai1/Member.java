@@ -3,7 +3,6 @@ package HomeWork.Bai1;
 import java.util.Scanner;
 
 /**
- *
  * @author PNam
  */
 public class Member {

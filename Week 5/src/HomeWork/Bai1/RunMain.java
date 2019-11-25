@@ -5,7 +5,6 @@
 package HomeWork.Bai1;
 
 /**
- *
  * @author PNam
  */
 public class RunMain {

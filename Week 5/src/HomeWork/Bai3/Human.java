@@ -3,7 +3,6 @@ package HomeWork.Bai3;
 import java.util.Scanner;
 
 /**
- *
  * @author PNam
  */
 public class Human {
