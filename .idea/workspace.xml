@@ -2,36 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="783c591f-e1f2-403c-b8da-55c907a5442b" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Week 3/src/bai3.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1U5y5TBft49gyYaX37CW8OjcgS3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/Week 3/src" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai3.Main" />
+      <module name="Week 8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai1.Main" />
       <module name="Week 7" />
@@ -45,33 +59,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai2.RunMain" />
-      <module name="Week 4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.bai1" />
-      <module name="Week 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="bai1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai1" />
+      <module name="Week 8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bai2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai2" />
+      <module name="Week 8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,35 +91,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.bai4" />
-      <module name="BTVN_JAVA_2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.bai1" />
-      <item itemvalue="Application.bai4" />
-      <item itemvalue="Application.RunMain" />
       <item itemvalue="Application.bai2" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.bai1 (1)" />
+      <item itemvalue="Application.bai2 (1)" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.bai2 (1)" />
+        <item itemvalue="Application.bai1 (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.bai2" />
-        <item itemvalue="Application.bai1" />
-        <item itemvalue="Application.RunMain" />
-        <item itemvalue="Application.bai4" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="106" key="#Getter_Template" timestamp="1575307703107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="106" key="#Getter_Template/0.0.1536.824@0.0.1536.824" timestamp="1575307703107" />
+    <state x="190" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1575309352490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="190" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575309352490" />
+    <state width="767" height="199" key="GridCell.Tab.0.bottom" timestamp="1575314393227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="767" height="199" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575314393227" />
+    <state width="767" height="199" key="GridCell.Tab.0.center" timestamp="1575314393227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="767" height="199" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575314393227" />
+    <state width="767" height="199" key="GridCell.Tab.0.left" timestamp="1575314393227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="767" height="199" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575314393227" />
+    <state width="767" height="199" key="GridCell.Tab.0.right" timestamp="1575314393227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="767" height="199" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575314393227" />
+    <state x="148" y="84" key="SettingsEditor" timestamp="1575308460995">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="148" y="84" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575308460995" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1575306463099">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1575306463099" />
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1575309989188">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575309989188" />
   </component>
 </project>
